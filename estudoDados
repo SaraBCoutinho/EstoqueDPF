@@ -1,0 +1,8 @@
+
+estoque_data.columns
+
+estoque_data.shape
+
+estoque_data.head(5)
+
+estoque_data.dtypes
