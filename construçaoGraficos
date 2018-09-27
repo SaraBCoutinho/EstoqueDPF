@@ -1,0 +1,12 @@
+get_ipython().run_line_magic('matplotlib', 'inline')
+import matplotlib.pyplot as plt
+import seaborn as sns
+plt.style.use('ggplot')
+
+x=estoque_data['Mes do Estoque']
+y=estoque_data['Quantidade do Estoque']
+plt.plot(x,y)
+
+z=estoque_data['Titulo/Contrato']
+w=estoque_data.['Vencimento do Titulo/Contrato']
+plt.plot(z,w)
