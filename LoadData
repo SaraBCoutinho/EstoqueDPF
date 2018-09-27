@@ -1,0 +1,4 @@
+import pandas
+estoque_file='C:\\Users\\Oncase\\Documents\\kaggle ml\\EstoqueDPF.csv'
+estoque_data=pandas.read_csv(estoque_file, delimiter=';')
+estoque_data.describe()
